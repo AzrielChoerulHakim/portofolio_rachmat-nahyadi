@@ -1,328 +1,654 @@
 {
   "schemaVersion": 1,
   "project": {
-    "name": "Rachmat Nahyadi — Thunderline Legal Portfolio",
-    "audience": "Perekrut hukum, firma hukum, instansi, dan bagian legal korporasi",
-    "primaryTask": "Memverifikasi pendidikan, keterampilan, pengalaman legal assistant, serta menghubungi Rachmat",
-    "thesis": "This website is an energized legal field record because Rachmat can demonstrate research, legal documentation, and legal aid work, which prospective employers need to verify quickly."
+    "name": "Rachmat Nahyadi — Thunderline legal portfolio",
+    "audience": "Perekrut hukum korporasi, instansi, mitra profesional",
+    "primaryTask": "Mengenali profil dan memverifikasi pendidikan, pengalaman hukum dan menghubungi Rachmat",
+    "thesis": "Portofolio berbentuk editorial dossier karena CV menunjukkan rekam jejak riset, dokumentasi, bantuan hukum dan pengalaman organisasi yang lebih tepat ditampilkan sebagai bukti kerja daripada kartu proyek rekaan."
   },
   "facts": [
     {
       "id": "F1",
-      "claim": "S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta, September 2021–July 2025; IPK 3.88/4.00.",
-      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Riwayat Pendidikan",
+      "claim": "Rachmat Nahyadi; Tangerang Selatan; kontak pada CV",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
       "status": "verified"
     },
     {
       "id": "F2",
-      "claim": "Legal Assistant (Secretary) internship BAKRI sejak April 2026; riset dan manajemen berkas hukum.",
-      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Pengalaman Kerja",
+      "claim": "S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta, Sep 2021–Jul 2025, IPK 3.88/4.00",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
       "status": "verified"
     },
     {
       "id": "F3",
-      "claim": "Legal Assistant internship Yayasan Lembaga Bantuan Hukum Advokasi Syariah Januari–Februari 2023.",
-      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Pengalaman Kerja",
+      "claim": "Legal Assistant (Secretary) Internship, Badan Advokasi Keadilan Rakyat Indonesia, Apr 2026–sekarang",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
       "status": "verified"
     },
     {
       "id": "F4",
-      "claim": "Kepala Biro Ekonomi Kreatif Himpunan Mahasiswa Program Studi Ilmu Hukum Januari 2024–Januari 2025.",
-      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Pengalaman Organisasi",
+      "claim": "Legal Assistant Internship, Yayasan Lembaga Bantuan Hukum Advokasi Syariah, Jan–Feb 2023",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
       "status": "verified"
     },
     {
       "id": "F5",
-      "claim": "Pengguna memberikan tiga foto Rachmat untuk portofolio.",
-      "source": "Lampiran foto dalam percakapan: portrait-night, portrait-books, portrait-graduation",
+      "claim": "Kepala Biro Ekonomi Kreatif Himpunan Mahasiswa Prodi Ilmu Hukum, Jan 2024–Jan 2025",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
+      "status": "verified"
+    },
+    {
+      "id": "F6",
+      "claim": "Anggota HIQMA, Jul 2022–Des 2024",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
+      "status": "verified"
+    },
+    {
+      "id": "F7",
+      "claim": "Kompetensi riset hukum, analisis, dokumen, administrasi, MS Office, Google Suite; bahasa Indonesia aktif, Inggris pasif",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
+      "status": "verified"
+    },
+    {
+      "id": "F8",
+      "claim": "CV menyertakan tautan portofolio Google Drive dan LinkedIn",
+      "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
       "status": "verified"
     }
   ],
   "concepts": [
     {
       "id": "A",
-      "name": "Evidence index",
+      "name": "Curriculum index",
       "contentOrder": [
-        "Ringkasan pendidikan",
-        "Indeks kompetensi",
-        "Bukti pengalaman",
-        "Kontak"
+        "identitas",
+        "ringkasan",
+        "pengalaman",
+        "pendidikan",
+        "kontak"
       ],
-      "readingGrammar": "Data-led fact scan and aligned evidence metadata",
-      "media": "Authentic photos as subordinate source records",
-      "interaction": "Click through indexed claims",
+      "readingGrammar": "Index-scanning: data terurut seperti direktori; keterangan singkat dulu",
+      "media": "Portrait sebagai metadata visual",
+      "interaction": "Penanda section dan pencarian anchor",
       "evidenceIds": [
         "F1",
         "F2",
-        "F5"
+        "F3"
       ],
-      "tradeoff": "Dense source index risks flattening narrative"
+      "tradeoff": "Terlalu administratif; kehilangan ekspresi fotografi"
     },
     {
       "id": "B",
-      "name": "Legal dossier",
+      "name": "Electric editorial dossier",
       "contentOrder": [
-        "Dossier identitas",
-        "Arsip magang",
-        "Dokumen organisasi",
-        "Penutup"
+        "identitas",
+        "kompetensi",
+        "pengalaman",
+        "sisi personal",
+        "organisasi",
+        "dokumen",
+        "kontak"
       ],
-      "readingGrammar": "Archive-folder annotations and legal record captions",
-      "media": "Authentic documentary photographs as record covers",
-      "interaction": "Expand thematic evidence folders",
+      "readingGrammar": "Editorial headline-led, bukti aktual berurutan, dua kontras tekstur visual",
+      "media": "Tiga foto autentik; video plasma sebagai atmosfer non-evidence",
+      "interaction": "Nav berjangkar, energy toggle, scroll progress",
       "evidenceIds": [
         "F1",
-        "F2",
-        "F5"
+        "F3",
+        "F7"
       ],
-      "tradeoff": "Artificial legal theatre could feel like fabricated casework"
+      "tradeoff": "Kepadatan visual dapat mengganggu scan bila skala huruf tak dikendalikan"
     },
     {
       "id": "C",
-      "name": "Chronological charge",
+      "name": "Evidence-first legal ledger",
       "contentOrder": [
-        "BAKRI current",
-        "LBH prior",
-        "S1 education",
-        "Organizations",
-        "Contact"
+        "pengalaman",
+        "dokumen",
+        "kompetensi",
+        "profil",
+        "pendidikan",
+        "kontak"
       ],
-      "readingGrammar": "Dates lead every reading line; role names anchored to chronology",
-      "media": "Photos positioned as milestones",
-      "interaction": "Scroll between dated experiences",
+      "readingGrammar": "Kronik bukti, uraian kerja di atas identitas, typographic evidence ledger",
+      "media": "Foto kecil berlabel, komposisi dominan teks",
+      "interaction": "Expand per pengalaman; tautan sumber nyata",
       "evidenceIds": [
-        "F1",
-        "F2",
-        "F5"
+        "F3",
+        "F4",
+        "F7"
       ],
-      "tradeoff": "Limited internship count yields too-short timeline"
+      "tradeoff": "Keterjangkauan cepat tetapi kurang human touch"
     },
     {
       "id": "D",
-      "name": "Field record",
+      "name": "Academic trajectory",
       "contentOrder": [
-        "Name and role",
-        "Verified facts",
-        "Capabilities",
-        "Experience timeline",
-        "Personal imagery",
-        "Portfolio link",
-        "Contact"
+        "pendidikan",
+        "organisasi",
+        "pengalaman",
+        "kompetensi",
+        "kontak"
       ],
-      "readingGrammar": "Massive condensed name contrasts with concise reading columns and source-backed detail",
-      "media": "Night portrait hero plus real books/graduation photos",
-      "interaction": "Three-second plasma background with pause and reduced-motion poster fallback",
+      "readingGrammar": "Tata baca kronologis dari pendidikan ke kontribusi; numerik dominan",
+      "media": "Toga sebagai hero, gambar pendukung kecil",
+      "interaction": "Timeline bertahap non-blocking",
       "evidenceIds": [
-        "F1",
         "F2",
-        "F5"
+        "F5",
+        "F6"
       ],
-      "tradeoff": "Visual intensity must not obscure factual reading"
+      "tradeoff": "Tidak mengutamakan pengalaman kerja paling baru"
     },
     {
       "id": "E",
-      "name": "Research notebook",
+      "name": "Public service case notes",
       "contentOrder": [
-        "Legal education",
-        "Research method",
-        "Documents",
-        "Work placements",
-        "Contact"
+        "pelayanan hukum",
+        "riset hukum",
+        "karya/dokumen",
+        "profil",
+        "kontak"
       ],
-      "readingGrammar": "Extended running paragraphs and marginal research notes",
-      "media": "Source documents and authentic photographs",
-      "interaction": "Navigate annotated reading chapters",
+      "readingGrammar": "Bacaan problem-solution dalam modul sumber yang tidak diada-adakan",
+      "media": "Fotografi publik hanya jika ada; bergantung teks CV",
+      "interaction": "Anchor penjelasan area pelayanan dan dokumen",
       "evidenceIds": [
-        "F1",
-        "F2",
-        "F5"
+        "F3",
+        "F4",
+        "F7"
       ],
-      "tradeoff": "No original research papers attached; risks invented examples"
+      "tradeoff": "Tidak ada case studies konkret yang boleh dipublikasikan"
     },
     {
       "id": "F",
-      "name": "Recruiter comparison",
+      "name": "Profile as personal photo essay",
       "contentOrder": [
-        "Qualification table",
-        "Capability-to-role mapping",
-        "Internships",
-        "Contact"
+        "fotografi",
+        "profil",
+        "pendidikan",
+        "organisasi",
+        "pengalaman",
+        "kontak"
       ],
-      "readingGrammar": "Task-oriented matrix of source facts and dates",
-      "media": "Photos as small profile evidence only",
-      "interaction": "Filter or focus across capability categories",
+      "readingGrammar": "Caption-led longform; foto pribadi mendahului kronologi",
+      "media": "Foto malam / buku / wisuda masing-masing satu chapter",
+      "interaction": "Scroll photographic transitions",
       "evidenceIds": [
         "F1",
         "F2",
         "F5"
       ],
-      "tradeoff": "May resemble an applicant tracking interface"
+      "tradeoff": "Profesionalitas hukum bisa kurang cepat terbaca"
     },
     {
       "id": "G",
-      "name": "Editorial photo essay",
+      "name": "Compact hiring brief",
       "contentOrder": [
-        "Night portrait",
-        "Reading frame",
-        "Graduation frame",
-        "Practice evidence",
-        "Contact"
+        "ringkasan keterampilan",
+        "pengalaman",
+        "pendidikan",
+        "organisasi",
+        "CV",
+        "kontak"
       ],
-      "readingGrammar": "Photo captions lead with tightly edited factual text",
-      "media": "Three authentic photos form core narrative",
-      "interaction": "Chapter-by-chapter image transitions",
+      "readingGrammar": "Skim 10-second recruiter flow, informasi tinggi kepadatan",
+      "media": "Satu portrait, sisa halaman hampir tanpa gambar",
+      "interaction": "Sticky contact rail, CV download",
       "evidenceIds": [
         "F1",
-        "F2",
-        "F5"
+        "F3",
+        "F7"
       ],
-      "tradeoff": "Photos might overshadow legal substance"
+      "tradeoff": "Tidak memanfaatkan brief Thunderline yang eksplisit"
     }
   ],
   "selection": {
-    "conceptId": "D",
-    "reason": "Field record prioritizes verified legal facts and accessible contact while giving Rachmat a distinctive identity anchored in supplied photos."
+    "conceptId": "B",
+    "reason": "Pilihan Thunderline sudah disetujui pengguna; anatomi editorial memungkinkan foto nyata, pembacaan bukti dan plasma 3 detik tanpa menjadikan efek sebagai klaim kompetensi."
   },
   "signature": {
-    "description": "A genuine blue/violet 3-second plasma loop behind an evidence-led name-first legal portrait.",
+    "description": "Tiga bukti paling cepat diverifikasi (IPK, tahun kelulusan, tempat pengalaman terkini) dalam proof strip, diikuti jejak kerja yang berurutan. Lightning hero sebagai signature dekoratif tambahan sesuai brief.",
     "evidenceIds": [
-      "F1",
-      "F2",
-      "F5"
-    ],
-    "benefit": "Memorable first impression while keeping recruitment facts visible and actionable.",
-    "fallback": "Static plasma still, semantic HTML and user-facing pause control."
-  },
-  "decisions": [
-    {
-      "choice": "Keep documented practice as evidence rows rather than fabricated projects.",
-      "benefit": "Recruiters can verify actual work without fictional case results.",
-      "tradeoff": "Less conventional portfolio gallery content.",
-      "evidenceIds": [
-        "F2",
-        "F3"
-      ]
-    },
-    {
-      "choice": "Use the client's three photos within distinct narrative moments.",
-      "benefit": "Client identity remains unmistakably authentic.",
-      "tradeoff": "Photography composition and mobile crops require individual review.",
-      "evidenceIds": [
-        "F5"
-      ]
-    }
-  ],
-  "avoid": [
-    {
-      "pattern": "Centered generic SaaS hero followed by three service cards",
-      "reason": "It obscures the client's law experience and repeats interchangeable structure."
-    },
-    {
-      "pattern": "Invented case wins or portfolio projects",
-      "reason": "CV only supports internship tasks, not case outcomes."
-    }
-  ],
-  "comparison": {
-    "projects": [],
-    "note": "Prior Lazarus visual materials were considered at planning level; no validated full-page structural screenshots are available for a source-bound side-by-side comparison."
-  },
-  "typography": {
-    "spec": "TYPE_SPEC.md",
-    "contentSource": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1",
-    "specimens": [
-      {
-        "id": "A",
-        "path": "type-specimens.html",
-        "content": "Rachmat Nahyadi | Legal Assistant — BAKRI | S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00."
-      },
-      {
-        "id": "B",
-        "path": "type-specimens.html",
-        "content": "Rachmat Nahyadi | Legal Assistant — BAKRI | S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00."
-      },
-      {
-        "id": "C",
-        "path": "type-specimens.html",
-        "content": "Rachmat Nahyadi | Legal Assistant — BAKRI | S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00."
-      }
-    ],
-    "chosenId": "B",
-    "reason": "Name-first editorial grammar gives personal identity immediate recognition, with genuine qualifications immediately available.",
-    "fontRights": "Barlow Condensed and IBM Plex families under SIL OFL via Google Fonts; fallback system families, no redistributed font binaries.",
-    "fallback": "Impact/Arial Narrow and Arial/system sans; all information remains HTML and responsive."
-  },
-  "voice": {
-    "spec": "TONE_OF_VOICE.md",
-    "language": "Bahasa Indonesia dengan sedikit label editorial bahasa Inggris",
-    "tone": "professional-conversational",
-    "audience": "Perekrut hukum dan instansi profesional",
-    "pronouns": "Orang ketiga dan editorial netral; tidak ada kutipan orang pertama tanpa persetujuan",
-    "rationale": "CV emphasizes legal research, discipline, communication and verified internships.",
-    "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1",
-    "evidenceIds": [
-      "F1",
       "F2",
       "F3"
     ],
+    "benefit": "Perekrut dapat menangkap pendidikan dan posisi kerja tanpa menafsirkan metafora efek listrik.",
+    "fallback": "Text HTML tetap terbaca dan dapat diklik saat video mati, video diblokir atau reduced motion."
+  },
+  "decisions": [
+    {
+      "id": "D1",
+      "choice": "Night portrait di hero",
+      "reason": "Gambar asli dan pakaian gelap cocok dengan black-neon tanpa memalsukan tempat kerja.",
+      "evidenceIds": [
+        "F1"
+      ],
+      "tradeoff": "Foto bersifat personal, bukan dokumentasi profesi; pengalaman nyata dijelaskan terpisah."
+    },
+    {
+      "id": "D2",
+      "choice": "Chronology dengan posisi legal dan akademik",
+      "reason": "CV berisi tanggal dan kontribusi yang lengkap.",
+      "evidenceIds": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "tradeoff": "Ringkasan pendek dilengkapi unduhan CV asli."
+    }
+  ],
+  "avoid": [
+    "Proyek atau studi kasus hukum fiktif",
+    "Identitas profesi advokat/lisensi yang tidak ada pada CV",
+    "Neon SaaS dashboard generik",
+    "Flashing putih fullscreen dan scroll-jacking",
+    "Foto yang dimanipulasi menjadi bukti kegiatan yang tidak pernah terjadi"
+  ],
+  "comparison": {
+    "projects": [],
+    "note": "Dibanding secara konseptual dengan pola Lazarus yang bertema surealis dan 2D crayon; tidak mengklaim audit screenshot seluruh portofolio terdahulu."
+  },
+  "typography": {
+    "spec": "TYPE_SPEC.md",
+    "contentSource": "CV RACHMAT NAHYADI.pdf, halaman 1",
+    "specimens": [
+      {
+        "id": "A",
+        "path": "docs/type-specimens.html",
+        "content": "RACHMAT NAHYADI — S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00. Legal Assistant (Secretary), BAKRI. April 2026 — Sekarang."
+      },
+      {
+        "id": "B",
+        "path": "docs/type-specimens.html",
+        "content": "RACHMAT NAHYADI — S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00. Legal Assistant (Secretary), BAKRI. April 2026 — Sekarang."
+      },
+      {
+        "id": "C",
+        "path": "docs/type-specimens.html",
+        "content": "RACHMAT NAHYADI — S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00. Legal Assistant (Secretary), BAKRI. April 2026 — Sekarang."
+      }
+    ],
+    "chosenId": "B",
+    "reason": "Headline padat, bukti kerja berbentuk timeline dan pembacaan body konvensional; tidak menyamakan ekspresi dengan keterbacaan.",
+    "fontRights": "Barlow Condensed dan IBM Plex: distribusi melalui Google Fonts; tidak membundel berkas font. Lisensi sumber perlu ditinjau pada produksi akhir.",
+    "fallback": "Impact/Arial Narrow/Arial; normal sans dan monospace system."
+  },
+  "voice": {
+    "spec": "TONE_OF_VOICE.md",
+    "language": "id",
+    "tone": "editorial",
+    "audience": "Perekrut dan jejaring profesional di bidang hukum",
+    "pronouns": "Orang ketiga; tanpa klaim first-person",
+    "rationale": "Konsisten dengan CV dan pembaca profesional, tanpa mengasumsikan klien menyetujui tagline sebagai kutipan pribadi.",
+    "source": "CV RACHMAT NAHYADI.pdf, halaman 1",
+    "evidenceIds": [
+      "F1",
+      "F3",
+      "F7"
+    ],
     "preferred": [
       "riset hukum",
-      "dokumen",
-      "bantuan hukum",
-      "analisis"
+      "dokumen hukum",
+      "administrasi perkara",
+      "bantuan hukum"
     ],
     "avoid": [
-      "terbaik di bidangnya",
-      "menangani ratusan perkara",
-      "guaranteed results"
+      "pakar",
+      "terbaik",
+      "advokat berlisensi",
+      "rekam jejak luar biasa"
     ],
     "samples": [
       {
         "id": "opening",
-        "copy": "Riset yang cermat. Dokumen yang tertata. Pendekatan hukum yang berpijak pada detail."
+        "text": "Riset yang cermat. Dokumen yang tertata. Pendekatan hukum yang berpijak pada detail."
       },
       {
         "id": "evidence",
-        "copy": "Menyusun draf dokumen hukum, melakukan riset peraturan, mengelola data, dan mengorganisasi arsip berkas perkara."
+        "text": "Menyusun draf dokumen hukum, melakukan riset peraturan, mengelola data, dan mengorganisasi arsip berkas perkara."
       },
       {
         "id": "action",
-        "copy": "Kirim email"
+        "text": "KIRIM EMAIL"
       }
     ],
     "approval": "editorial-draft"
   },
   "mobile": {
     "spec": "MOBILE_VISUAL_QA.md",
-    "readingOrder": "Identity → degree and IPK → legal capabilities → experience timeline → real photo narratives → CV-listed portfolio link → contacts",
-    "illustrationPolicy": "Authentic photos preserve subject crop; plasma video must remain behind readable text.",
-    "motionFallback": "Pause control; prefers-reduced-motion uses static poster.",
+    "readingOrder": "Identitas -> profil -> kompetensi -> pengalaman -> foto personal -> organisasi -> portofolio -> kontak",
+    "illustrationPolicy": "Foto otentik dan plasma dicropping ulang di mobile, lapisan footage di belakang teks, tidak boleh menutupi navigasi.",
+    "motionFallback": "Background plasma poster statis saat reduced-motion atau video gagal, tetap ada semua konten HTML.",
     "riskAreas": [
-      "Large display name at 320px",
-      "Plasma glow behind copy",
-      "Navigation overlay and viewport fit",
-      "Long legal organizations and email wrapping"
+      "Headline panjang pada 320 CSS px",
+      "Wajah portrait bertabrakan dengan teks hero",
+      "Fixed navigation dan anchor",
+      "Istilah panjang BAKRI, BERTUMBUH, TERHUBUNG",
+      "Plasma terlalu terang di belakang CTA"
     ],
     "sections": [
-      "top",
-      "profil",
-      "kompetensi",
-      "pengalaman",
-      "interlude-title",
-      "beyond-title",
-      "portfolio-title",
-      "kontak"
+      {
+        "id": "top",
+        "label": "top"
+      },
+      {
+        "id": "profil",
+        "label": "profil"
+      },
+      {
+        "id": "kompetensi",
+        "label": "kompetensi"
+      },
+      {
+        "id": "pengalaman",
+        "label": "pengalaman"
+      },
+      {
+        "id": "interlude",
+        "label": "interlude"
+      },
+      {
+        "id": "beyond",
+        "label": "beyond"
+      },
+      {
+        "id": "portfolio",
+        "label": "portfolio"
+      },
+      {
+        "id": "kontak",
+        "label": "kontak"
+      }
     ]
   },
   "qa": {
-    "commit": "aed290a027265dd63f19716fc0f5e2d6b7ffc327",
-    "environment": "Static source review; headless browser screenshot capture not successful in available container",
-    "screenshots": [],
-    "mobileInspections": [],
-    "checks": [],
-    "reviews": [],
+    "commit": "",
+    "environment": "Chromium headless with Playwright set_content and base64 assets; no live HTTP hosting available",
+    "screenshots": [
+      {
+        "width": 320,
+        "path": "qa/full-320.jpg",
+        "note": "Chromium capture, 320px document width, no horizontal overflow"
+      },
+      {
+        "width": 390,
+        "path": "qa/full-390.jpg",
+        "note": "Chromium capture, 390px document width, no horizontal overflow"
+      },
+      {
+        "width": 640,
+        "path": "qa/full-640.jpg",
+        "note": "Chromium capture, 640px document width, no horizontal overflow"
+      },
+      {
+        "width": 768,
+        "path": "qa/full-768.jpg",
+        "note": "Chromium capture, 768px document width, no horizontal overflow"
+      },
+      {
+        "width": 1024,
+        "path": "qa/full-1024.jpg",
+        "note": "Chromium capture, 1024px document width, no horizontal overflow"
+      },
+      {
+        "width": 1440,
+        "path": "qa/full-1440.jpg",
+        "note": "Chromium capture, 1440px document width, no horizontal overflow"
+      },
+      {
+        "width": 844,
+        "path": "qa/full-844.jpg",
+        "note": "Chromium capture, 844px document width, no horizontal overflow"
+      }
+    ],
+    "mobileInspections": [
+      {
+        "sectionId": "top",
+        "width": 320,
+        "path": "qa/mobile-320-top.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "top",
+        "width": 390,
+        "path": "qa/mobile-390-top.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "profil",
+        "width": 320,
+        "path": "qa/mobile-320-profil.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "profil",
+        "width": 390,
+        "path": "qa/mobile-390-profil.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "kompetensi",
+        "width": 320,
+        "path": "qa/mobile-320-kompetensi.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "kompetensi",
+        "width": 390,
+        "path": "qa/mobile-390-kompetensi.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "pengalaman",
+        "width": 320,
+        "path": "qa/mobile-320-pengalaman.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "pengalaman",
+        "width": 390,
+        "path": "qa/mobile-390-pengalaman.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "interlude",
+        "width": 320,
+        "path": "qa/mobile-320-interlude.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "interlude",
+        "width": 390,
+        "path": "qa/mobile-390-interlude.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "beyond",
+        "width": 320,
+        "path": "qa/mobile-320-beyond.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "beyond",
+        "width": 390,
+        "path": "qa/mobile-390-beyond.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "portfolio",
+        "width": 320,
+        "path": "qa/mobile-320-portfolio.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "portfolio",
+        "width": 390,
+        "path": "qa/mobile-390-portfolio.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "kontak",
+        "width": 320,
+        "path": "qa/mobile-320-kontak.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      },
+      {
+        "sectionId": "kontak",
+        "width": 390,
+        "path": "qa/mobile-390-kontak.jpg",
+        "status": "pass",
+        "notes": "Rendered via inline asset test at verified viewport; no page-wide overflow."
+      }
+    ],
+    "checks": [
+      {
+        "id": "keyboard",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "focus",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "touch",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "reduced-motion",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "core-actions",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "text-resize-200",
+        "status": "not-tested",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "reflow-320",
+        "status": "not-tested",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "text-spacing",
+        "status": "not-tested",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "contrast",
+        "status": "not-tested",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "font-fallback",
+        "status": "not-tested",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "content-stress",
+        "status": "not-tested",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "loading-empty-error",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "mobile-visual-overlap",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "mobile-navigation-fit",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "mobile-motion-stability",
+        "status": "pass",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      },
+      {
+        "id": "voice-claims",
+        "status": "not-tested",
+        "evidence": "qa/evidence.json",
+        "notes": "Only executed observations count; no full WCAG review"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "identity-swap",
+        "status": "pass",
+        "evidence": "qa/QA_REPORT.md",
+        "notes": "Editorial review limited to supplied client data and captured renderings"
+      },
+      {
+        "id": "structural-skeleton",
+        "status": "pass",
+        "evidence": "qa/QA_REPORT.md",
+        "notes": "Editorial review limited to supplied client data and captured renderings"
+      },
+      {
+        "id": "decision-rationale",
+        "status": "pass",
+        "evidence": "qa/QA_REPORT.md",
+        "notes": "Editorial review limited to supplied client data and captured renderings"
+      },
+      {
+        "id": "voice-consistency",
+        "status": "not-tested",
+        "evidence": "qa/QA_REPORT.md",
+        "notes": "Editorial review limited to supplied client data and captured renderings"
+      },
+      {
+        "id": "mobile-art-direction",
+        "status": "pass",
+        "evidence": "qa/QA_REPORT.md",
+        "notes": "Editorial review limited to supplied client data and captured renderings"
+      }
+    ],
     "independentReview": {
       "status": "not-tested",
-      "notes": "No independent visual review has been completed."
+      "notes": "Belum melibatkan reviewer independen."
     }
   }
 }

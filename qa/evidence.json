@@ -1,0 +1,75 @@
+{
+  "environment": "Chromium headless with Playwright set_content and base64 assets; no live HTTP hosting available",
+  "viewports": {
+    "320x720": {
+      "documentWidth": 320,
+      "horizontalOverflow": false,
+      "h1Count": 1
+    },
+    "390x844": {
+      "documentWidth": 390,
+      "horizontalOverflow": false,
+      "h1Count": 1
+    },
+    "640x900": {
+      "documentWidth": 640,
+      "horizontalOverflow": false,
+      "h1Count": 1
+    },
+    "768x980": {
+      "documentWidth": 768,
+      "horizontalOverflow": false,
+      "h1Count": 1
+    },
+    "1024x768": {
+      "documentWidth": 1024,
+      "horizontalOverflow": false,
+      "h1Count": 1
+    },
+    "1440x900": {
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "h1Count": 1
+    },
+    "844x390": {
+      "documentWidth": 844,
+      "horizontalOverflow": false,
+      "h1Count": 1
+    }
+  },
+  "videos": {
+    "1440": {
+      "before": {
+        "playing": true,
+        "time": 1.443276,
+        "duration": 3,
+        "readyState": 4
+      },
+      "afterPause": {
+        "paused": true,
+        "pressed": "false"
+      }
+    },
+    "390": {
+      "before": {
+        "playing": true,
+        "time": 1.312806,
+        "duration": 3,
+        "readyState": 4
+      },
+      "afterPause": {
+        "paused": true,
+        "pressed": "false"
+      }
+    }
+  },
+  "functionality": {
+    "mobileMenuExpanded": "true",
+    "mobileLinksVisible": 4,
+    "mobileMenuClosedWithEscape": "false",
+    "unresolvedAnchors": [],
+    "missingImgAlt": [],
+    "missingLocalAssets": []
+  },
+  "errors": []
+}

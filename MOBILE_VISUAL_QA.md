@@ -1,11 +1,14 @@
-# Mobile composition / planned review
+# RACHMAT NAHYADI — MOBILE VISUAL QA PLAN
 
-Reading sequence: header identity → hero name/role/profile line → education/IPK/professional evidence → practice capabilities → verified timeline → reading photo → organization record → external portfolio document → contacts.
+**Target:** 320 / 390 CSS px sections plus full-page 640 / 768 / 1024 / 1440 and short landscape.
 
-Actual section IDs: `top`, `profil`, `kompetensi`, `pengalaman`, `interlude-title` (interlude section), `beyond-title` (beyond section), `portfolio-title` (portfolio section), `kontak`.
+Reading order: Hero → profile → expertise → experience → photo essay → organizations → external portfolio → contact.
 
-Risk areas: very long name/degree titles at 320, photo crossing hero text, plasma behind metadata, fixed header covering anchor targets, timeline employer names wrapping, external links becoming too narrow, footer email wrapping, image focal crop at 390 and below.
+Risk zones: very long upper-case BERTUMBUH/TERHUBUNG headings, proof strip at 320, hero portrait overlap, fixed menu, plasma under live text, source-linked resume and contact links.
 
-Mitigations: viewport-specific font sizing, dark overlay behind copy, single-column recomposition for most content below 650px, natural employer-name wrapping, two-column contact grid becoming single column below 380px; pause control and reduced-motion poster fallback. Mobile photograph crops prioritise recognizable subject and do not conceal essential text. Test every real section at 320/390 before release.
+Method: Headless Chromium via Playwright `set_content()` with local CSS/JS/media converted to data URLs because this environment blocks localhost/file navigation. This exercises the full DOM, assets, responsive CSS, and actual media playback, but **not network loading on a deployed GitHub Pages URL**. Video playback checked at 1440 and 390: readyState 4, playback time advanced from zero.
 
-Current status: implementation prepared; visual browser verification not yet complete.
+Fallbacks: poster image for plasma, reduced motion shows static image; energy toggle stops video; link navigation remains available even if JavaScript fails on desktop. Mobile menu uses JS and keyboard Escape; default no-JS mobile navigation should be enhanced when possible.
+
+### Required final checks
+Actual screenshots and per-section observations go in `qa/QA_REPORT.md`. Independent reading/real-device testing and browser deployment network checks remain open until performed.

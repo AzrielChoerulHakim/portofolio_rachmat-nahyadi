@@ -1,11 +1,14 @@
-# Rachmat Nahyadi / Tone of Voice
+# RACHMAT NAHYADI — TONE OF VOICE
 
-Language: Indonesian for substantive content, selected English labels as visual framing. Formality: professional, contemporary, plain-spoken. Pronouns: third-person or neutral editorial; no fabricated quotes or first-person confessions.
+**Source:** user-provided CV, one page. **Reader:** legal sector recruiters / professional contacts. **Status:** creative editorial proposal; not confirmed as direct client speech.
 
-Audience: legal recruiters, firms, corporate legal departments and public institutions. Avoid slogans that make legal claims unsupported by documented work. Editorial openings are proposals, not client quotations.
+Voice: Bahasa Indonesia, third person, precise, controlled, evidence-led. Creative copy may be evocative but cannot imply qualification as an advocate, a specific case result, court victory, or employment beyond the CV.
 
-Opening copy: "Riset yang cermat. Dokumen yang tertata. Pendekatan hukum yang berpijak pada detail."
-Evidence copy: "Menyusun draf dokumen hukum, melakukan riset peraturan, mengelola data, dan mengorganisasi arsip berkas perkara."
-Action copy: "Kirim email".
+Favor: riset hukum; dokumen; manajemen arsip; pelayanan hukum; pengalaman magang; koordinasi. Avoid: expert/pakar; litigasi tingkat tinggi; 'memenangkan perkara'; hyperbolic AI filler.
 
-No claims of bar admission, attorney licensure, resolved cases, victories, measurable outcomes or independent practice.
+Actual specimens:
+- **Opening:** Riset yang cermat. Dokumen yang tertata. Pendekatan hukum yang berpijak pada detail.
+- **Evidence:** Menyusun draf dokumen hukum, melakukan riset peraturan, mengelola data, dan mengorganisasi arsip berkas perkara.
+- **Action:** KIRIM EMAIL.
+
+All assertions derive from CV or clearly presented editorial inference. No fabricated first-person attribution.

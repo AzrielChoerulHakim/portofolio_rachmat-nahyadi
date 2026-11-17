@@ -1,23 +1,26 @@
-# Typography Direction / Rachmat Nahyadi
+# RACHMAT NAHYADI — TYPE SPEC
 
-## Reading needs
-A recruiter or professional reader should recognize Rachmat's name, legal degree, real experience, and contact actions rapidly. Dense CV descriptions need clear paragraph widths; dates and positions must not be buried in atmospheric styling. Bahasa Indonesia is the primary language, with selective English art-direction labels that do not conceal facts.
+## Reading brief
+Recruiter or professional reviewer should recognize **name, actual current role, degree, recent experience and contact** immediately. Source: CV RACHMAT NAHYADI.pdf (1 page). Intended language Bahasa Indonesia with selectively technical bilingual descriptors, no invented personal quotations.
 
-## Three same-copy monochrome specimens
-Visual comparison source: `type-specimens.html` (same verified text in three structural compositions; no imagery or neon colors).
+## Three monochrome same-copy specimens
+See [`docs/type-specimens.html`](docs/type-specimens.html). Each variation uses this **exact** verified sample:
 
-- **A / Formal dossier**: small sober display, section labels, evenly spaced annotations. Advantage: restrained and trustworthy. Risk: generic institutional CV and weak character.
-- **B / Name-led editorial (selected)**: high contrast large condensed display, source-backed metadata below, short reading columns. Advantage: memorable first encounter without losing facts. Risk: must reflow for long names on narrow widths.
-- **C / Experience-led index**: places BAKRI internship first and name second, chronological accents. Advantage: fast experience discovery. Risk: obscures personal identity as a portfolio landing.
+> RACHMAT NAHYADI — S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00. Legal Assistant (Secretary), BAKRI. April 2026 — Sekarang.
 
-## Type system selected
-- Display: Barlow Condensed 800–900 (Google Fonts, open-source SIL OFL), fallback Impact / Arial Narrow / sans-serif. For identity and evidence headings, not body paragraphs.
-- Reading: IBM Plex Sans 400–700 (IBM Plex, open-source SIL OFL), fallback Arial / sans-serif. Body around 15–18 CSS px with 1.6–1.8 line-height and controlled widths of roughly 50–65 characters where practical.
-- Technical labels: IBM Plex Mono 500 (IBM Plex, SIL OFL), fallback monospace; labels are secondary and never the sole carriers of critical information.
-- Use proportional figures in narrative, tabular numerals where aligned data appears. IPK `3.88/4.00` retained exactly from CV.
-- Display tracking approximately −0.035 to −0.057em and narrow width are confined to large contexts; body uses normal tracking. Verify fallback metrics.
-- For mobile, display font uses viewport-aware sizing and section-specific recomposition. Long employer names wrap naturally, not clipped or replaced with ellipses.
-- Every meaningful word remains semantic HTML, selectable and indexable.
+- **A, index:** dense professional list, optimized comparison; rejected for limited visual character.
+- **B, expressive dossier (chosen):** large condensed name plus conventional detail lines; balances scan speed and energy.
+- **C, running note:** reading-first introduction; rejected because recruiter must search harder for the current role.
 
-## Pending browser release checks
-Inspect 320/390/640/768/1024/1440, short landscape, 200% text, 320px-equivalent reflow, text-spacing override, contrast states, missing font and keyboard focus. No browser QA pass should be claimed without real screenshots and notes.
+## Type roles
+| Role | Face and fallback | Visual role | Responsive safeguard |
+| --- | --- | --- | --- |
+| Name and chapter heads | Barlow Condensed 800–900 / Impact / Arial Narrow | Scale and recognizability | Smaller tracking/font sizes at 320/390; no JS-replaced text |
+| Human-readable narrative | IBM Plex Sans 400–600 / Arial | Main reading content | 15–18px, 1.5–1.8 leading, width-limited prose |
+| Dates and metadata | IBM Plex Mono / monospace | Comparability, explicit provenance | Short labels; avoid depending on 9px captions for essential data |
+| Buttons and nav | IBM Plex Mono / monospace | Usable affordances | Keyboard focus visible; mobile menu at <=850 |
+
+Google Fonts stylesheet loads webfonts externally; no font binary is redistributed. Their foundry licensing must be kept under review. Fallbacks are built into CSS. Captions use responsive scaling; actual CV facts must stay in body text as well.
+
+## QA observations
+At 320, 390, 640, 768, 1024, 1440px, initial overflow was identified in the large chapters and corrected through specific breakpoint rules. Fallback font testing was performed because remote fonts are blocked in the automated Chromium environment. **200% text-only enlargement, spacing override and independent legibility review remain not verified**, so no full Typography QA approval is claimed.

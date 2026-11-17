@@ -1,29 +1,26 @@
-# Rachmat Nahyadi — Legal Portfolio
+# Rachmat Nahyadi — Thunderline / Lazarus Dev
 
-Built with **Lazarus Design OS v4**, using the **Thunderline / High Voltage Neon** visual direction.
-
-## Contents
-
-- Source-grounded profile, legal education, work history, capabilities and organization leadership.
-- Three photographs supplied by the client.
-- Three-second original plasma loop (MP4) with static poster fallback.
-- Responsive static HTML/CSS/JavaScript, reduced-motion behavior and pause control.
-- Source-grounded design decisions, type comparison, tone-of-voice and mobile QA plans.
+A single-page static professional portfolio. Visual direction: **high-voltage neon**, with original 3-second plasma loop as a decorative hero layer. No 3D engine.
 
 ## Run
-
-```bash
+```sh
 python3 -m http.server 8000
+# open http://localhost:8000
 ```
 
-Open http://localhost:8000 . No build step or npm packages are required.
+GitHub Pages: Publish the repository `main` branch from root. All assets use relative paths. No npm build or API keys needed.
 
-## Deployment
+## Controls
+- Desktop navigation: Profile / Competencies / Career / Contact.
+- Mobile: menu button; press Escape to close.
+- ENERGY ON/OFF toggle pauses plasma; OS reduced-motion preference uses static poster.
+- Contact: mailto, telephone, LinkedIn, original CV download, original Google Drive portfolio.
 
-Publish repository root from `main` using GitHub Pages, or deploy to any static host. `index.html` is the entrypoint.
+## Design OS alignment
+`DESIGN_DECISIONS.md`, `TYPE_SPEC.md`, `TONE_OF_VOICE.md`, `MOBILE_VISUAL_QA.md`, `design-contract.json` record source-bound design decisions. `qa/QA_REPORT.md` documents tested and untested states. Source of truth: CV and photographs supplied in the conversation, read using Lazarus Design OS v4.
 
-## Credits and content
+## Assets
+`assets/plasma-loop.webm` (VP9) and `assets/plasma-loop.mp4` (H.264) are 3.000-second loops; `assets/plasma-poster.webp` is the static fallback. Three portraits are actual user images. `assets/CV-Rachmat-Nahyadi.pdf` is the source CV.
 
-Content: verified against **CV Rachmat Nahyadi**; three client-provided photographs. Art direction, editing and frontend: Lazarus Dev. No fictitious projects or unverified awards are included.
-
-Design OS: https://github.com/AzrielChoerulHakim/lazarus-design-os
+## Important
+This is an experimental personal portfolio, not a declaration of professional advocate licensing, case outcomes or employment beyond the attached CV.

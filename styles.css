@@ -15,4 +15,48 @@
 @media(max-width:380px){.hero-type h1{font-size:18.3vw}.hero-content{padding-top:31svh}.hero-role strong{font-size:20px}.hero-intro p{font-size:12px}.hero-overline{font-size:8px}.profile-heading h2{font-size:17vw}.practice-head h2{font-size:14.4vw}.career-heading h2{font-size:13.2vw}.portfolio-link-layout h2{font-size:14.3vw}.footer-main h2{font-size:15vw}.footer-data{grid-template-columns:1fr}.header-contact{padding:9px 10px}}
 @media(max-height:720px) and (min-width:651px){.hero-content{padding-top:25vh}.hero-type h1{font-size:min(17vw,25vh)}.hero-intro{margin-top:4vh}.hero{min-height:610px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.energy-indicator,.hero-luminescence,.plasma-video,.career-spine-light{animation:none!important}.js [data-reveal]{opacity:1!important;transform:none!important;transition:none!important}*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}.hero-electric{background:url('assets/plasma-poster.webp') center/cover no-repeat}.hero-electric video{display:none}}
+
+/* Quality pass: preserve every word and breakpoint, even without the preferred webfont. */
+.hero-electric{background:url('assets/plasma-poster.webp') center/cover no-repeat}
+.hero-electric:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(7,7,13,.48),transparent 38%,rgba(7,7,13,.14))}
+.hero-type h1{font-stretch:condensed}
+.beyond-grid,.portfolio-link-layout,.profile-layout,.career-body,.footer-data{min-width:0}
+.beyond-grid>* ,.portfolio-link-layout>*,.practice-head>*{min-width:0;max-width:100%}
+.beyond-photo{width:100%;max-width:100%}
+.footer-main h2{font-size:clamp(66px,12.2vw,186px);line-height:.83;overflow-wrap:anywhere}
+.beyond-copy h2{font-size:clamp(65px,8.5vw,140px)}
+.portfolio-link-layout h2{font-size:clamp(64px,9vw,150px)}
+.practice-head h2{font-size:clamp(67px,8.7vw,135px)}
+.menu-toggle{display:none;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.25);background:transparent;padding:10px 11px;color:var(--white);font:600 10px var(--mono)}
+.menu-toggle span{font-size:17px;line-height:.7;color:var(--cyan)}
+@media(max-width:1100px){.portfolio-link-layout{grid-template-columns:minmax(0,1fr) minmax(0,.85fr)}.beyond-copy h2{font-size:clamp(56px,8.1vw,100px)}}
+@media(max-width:850px){.menu-toggle{display:flex}.primary-nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:130;padding:12px var(--pad) 24px;background:#090917;border-bottom:1px solid #71628f;box-shadow:0 15px 25px rgba(0,0,0,.42)}.primary-nav.open{display:flex;flex-direction:column;align-items:stretch;gap:0}.primary-nav a{font-size:15px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12)}.portfolio-link-layout{display:block}.portfolio-link-action{margin-top:38px}.beyond-copy h2{font-size:clamp(55px,10vw,85px)}}
+@media(max-width:650px){
+ .site-header{gap:10px}.brand{gap:8px}.brand-copy{font-size:12px}
+ .menu-toggle{font-size:0;border:0;padding:12px 9px}.menu-toggle span{font-size:23px}
+ .header-tools{gap:5px}.header-contact{font-size:9px}
+ .hero-type h1{font-size:clamp(64px,17.8vw,116px);line-height:.82;letter-spacing:-.055em}
+ .hero-content{padding-top:clamp(185px,31svh,280px)}.hero-intro{margin-top:27px}
+ .profile-heading h2{font-size:clamp(63px,15vw,106px)}
+ .practice-head h2{font-size:clamp(61px,12.7vw,88px);line-height:.87}
+ .career-heading h2{font-size:clamp(56px,12.4vw,86px)}
+ .interlude-content h2{font-size:clamp(61px,11.3vw,90px)}
+ .beyond-grid{grid-template-columns:minmax(0,1fr)}.beyond-photo{width:100%;height:540px}
+ .beyond-copy h2{font-size:clamp(58px,12.4vw,92px)}
+ .portfolio-link-layout h2{font-size:clamp(63px,13.4vw,92px)}
+ .footer-main h2{font-size:clamp(47px,11vw,81px);line-height:.87;letter-spacing:-.045em;white-space:normal}
+ .footer-data{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+}
+@media(max-width:380px){.hero-type h1{font-size:17.2vw}.beyond-copy h2{font-size:11.8vw}.portfolio-link-layout h2{font-size:13vw}.footer-main h2{font-size:10.7vw}.header-contact{padding:9px 8px}}
+@media(min-width:651px) and (max-width:900px){.footer-main h2{font-size:11vw}}
+@media(prefers-reduced-motion:reduce){.hero-electric{background:url('assets/plasma-poster.webp') center/cover no-repeat}}
+/* Final width corrections from six-breakpoint inspection */
+.proof-strip,.proof-item,.career-entry,.career-text{min-width:0}
+.proof-item strong{max-width:100%}
+@media(min-width:1101px){.beyond-copy h2{font-size:clamp(62px,6.5vw,106px)}}
+@media(min-width:851px) and (max-width:1100px){.beyond-copy h2{font-size:clamp(49px,6.1vw,74px)}}
+@media(min-width:651px) and (max-width:850px){.beyond-copy h2{font-size:7vw}}
+@media(max-width:650px){.proof-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.proof-item strong{font-size:clamp(53px,12vw,85px)}.proof-item:nth-child(3){width:100%}.proof-item:nth-child(3) strong{font-size:clamp(55px,12.5vw,78px)}.beyond-copy h2{font-size:clamp(43px,10vw,70px)}}
+@media(max-width:380px){.proof-item strong{font-size:clamp(48px,11.3vw,61px)}.proof-item:nth-child(3) strong{font-size:clamp(51px,12vw,66px)}}
+
 .menu-toggle{display:none;border:1px solid rgba(255,255,255,.35);width:36px;height:36px;background:transparent;color:var(--white);align-items:center;justify-content:center;flex-direction:column;gap:6px;padding:0}.menu-toggle span{display:block;width:17px;height:1px;background:currentColor;transition:transform .2s}.menu-toggle[aria-expanded="true"] span:first-child{transform:translateY(3.5px) rotate(45deg)}.menu-toggle[aria-expanded="true"] span:last-child{transform:translateY(-3.5px) rotate(-45deg)}@media(max-width:850px){.site-header{grid-template-columns:1fr auto auto}.menu-toggle{display:flex}.primary-nav.is-open{display:flex;position:absolute;top:100%;left:0;right:0;z-index:200;background:#090813;padding:10px var(--pad) 22px;flex-direction:column;gap:0;border-bottom:1px solid rgba(255,255,255,.3);box-shadow:0 30px 45px rgba(0,0,0,.6)}.primary-nav.is-open a{display:block;padding:18px 0;font-size:13px;border-bottom:1px solid rgba(255,255,255,.13)}}@media(max-width:380px){.header-tools{gap:7px}.site-header{gap:10px}.brand{gap:7px}.brand-copy{font-size:12px}.energy-toggle{padding:7px 0}}
