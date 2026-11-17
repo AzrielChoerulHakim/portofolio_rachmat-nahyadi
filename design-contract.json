@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "Rachmat Nahyadi — Thunderline Legal Portfolio",
+    "audience": "Perekrut hukum, firma hukum, instansi, dan bagian legal korporasi",
+    "primaryTask": "Memverifikasi pendidikan, keterampilan, pengalaman legal assistant, serta menghubungi Rachmat",
+    "thesis": "This website is an energized legal field record because Rachmat can demonstrate research, legal documentation, and legal aid work, which prospective employers need to verify quickly."
+  },
+  "facts": [
+    {
+      "id": "F1",
+      "claim": "S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta, September 2021–July 2025; IPK 3.88/4.00.",
+      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Riwayat Pendidikan",
+      "status": "verified"
+    },
+    {
+      "id": "F2",
+      "claim": "Legal Assistant (Secretary) internship BAKRI sejak April 2026; riset dan manajemen berkas hukum.",
+      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Pengalaman Kerja",
+      "status": "verified"
+    },
+    {
+      "id": "F3",
+      "claim": "Legal Assistant internship Yayasan Lembaga Bantuan Hukum Advokasi Syariah Januari–Februari 2023.",
+      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Pengalaman Kerja",
+      "status": "verified"
+    },
+    {
+      "id": "F4",
+      "claim": "Kepala Biro Ekonomi Kreatif Himpunan Mahasiswa Program Studi Ilmu Hukum Januari 2024–Januari 2025.",
+      "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1, Pengalaman Organisasi",
+      "status": "verified"
+    },
+    {
+      "id": "F5",
+      "claim": "Pengguna memberikan tiga foto Rachmat untuk portofolio.",
+      "source": "Lampiran foto dalam percakapan: portrait-night, portrait-books, portrait-graduation",
+      "status": "verified"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "A",
+      "name": "Evidence index",
+      "contentOrder": [
+        "Ringkasan pendidikan",
+        "Indeks kompetensi",
+        "Bukti pengalaman",
+        "Kontak"
+      ],
+      "readingGrammar": "Data-led fact scan and aligned evidence metadata",
+      "media": "Authentic photos as subordinate source records",
+      "interaction": "Click through indexed claims",
+      "evidenceIds": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "tradeoff": "Dense source index risks flattening narrative"
+    },
+    {
+      "id": "B",
+      "name": "Legal dossier",
+      "contentOrder": [
+        "Dossier identitas",
+        "Arsip magang",
+        "Dokumen organisasi",
+        "Penutup"
+      ],
+      "readingGrammar": "Archive-folder annotations and legal record captions",
+      "media": "Authentic documentary photographs as record covers",
+      "interaction": "Expand thematic evidence folders",
+      "evidenceIds": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "tradeoff": "Artificial legal theatre could feel like fabricated casework"
+    },
+    {
+      "id": "C",
+      "name": "Chronological charge",
+      "contentOrder": [
+        "BAKRI current",
+        "LBH prior",
+        "S1 education",
+        "Organizations",
+        "Contact"
+      ],
+      "readingGrammar": "Dates lead every reading line; role names anchored to chronology",
+      "media": "Photos positioned as milestones",
+      "interaction": "Scroll between dated experiences",
+      "evidenceIds": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "tradeoff": "Limited internship count yields too-short timeline"
+    },
+    {
+      "id": "D",
+      "name": "Field record",
+      "contentOrder": [
+        "Name and role",
+        "Verified facts",
+        "Capabilities",
+        "Experience timeline",
+        "Personal imagery",
+        "Portfolio link",
+        "Contact"
+      ],
+      "readingGrammar": "Massive condensed name contrasts with concise reading columns and source-backed detail",
+      "media": "Night portrait hero plus real books/graduation photos",
+      "interaction": "Three-second plasma background with pause and reduced-motion poster fallback",
+      "evidenceIds": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "tradeoff": "Visual intensity must not obscure factual reading"
+    },
+    {
+      "id": "E",
+      "name": "Research notebook",
+      "contentOrder": [
+        "Legal education",
+        "Research method",
+        "Documents",
+        "Work placements",
+        "Contact"
+      ],
+      "readingGrammar": "Extended running paragraphs and marginal research notes",
+      "media": "Source documents and authentic photographs",
+      "interaction": "Navigate annotated reading chapters",
+      "evidenceIds": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "tradeoff": "No original research papers attached; risks invented examples"
+    },
+    {
+      "id": "F",
+      "name": "Recruiter comparison",
+      "contentOrder": [
+        "Qualification table",
+        "Capability-to-role mapping",
+        "Internships",
+        "Contact"
+      ],
+      "readingGrammar": "Task-oriented matrix of source facts and dates",
+      "media": "Photos as small profile evidence only",
+      "interaction": "Filter or focus across capability categories",
+      "evidenceIds": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "tradeoff": "May resemble an applicant tracking interface"
+    },
+    {
+      "id": "G",
+      "name": "Editorial photo essay",
+      "contentOrder": [
+        "Night portrait",
+        "Reading frame",
+        "Graduation frame",
+        "Practice evidence",
+        "Contact"
+      ],
+      "readingGrammar": "Photo captions lead with tightly edited factual text",
+      "media": "Three authentic photos form core narrative",
+      "interaction": "Chapter-by-chapter image transitions",
+      "evidenceIds": [
+        "F1",
+        "F2",
+        "F5"
+      ],
+      "tradeoff": "Photos might overshadow legal substance"
+    }
+  ],
+  "selection": {
+    "conceptId": "D",
+    "reason": "Field record prioritizes verified legal facts and accessible contact while giving Rachmat a distinctive identity anchored in supplied photos."
+  },
+  "signature": {
+    "description": "A genuine blue/violet 3-second plasma loop behind an evidence-led name-first legal portrait.",
+    "evidenceIds": [
+      "F1",
+      "F2",
+      "F5"
+    ],
+    "benefit": "Memorable first impression while keeping recruitment facts visible and actionable.",
+    "fallback": "Static plasma still, semantic HTML and user-facing pause control."
+  },
+  "decisions": [
+    {
+      "choice": "Keep documented practice as evidence rows rather than fabricated projects.",
+      "benefit": "Recruiters can verify actual work without fictional case results.",
+      "tradeoff": "Less conventional portfolio gallery content.",
+      "evidenceIds": [
+        "F2",
+        "F3"
+      ]
+    },
+    {
+      "choice": "Use the client's three photos within distinct narrative moments.",
+      "benefit": "Client identity remains unmistakably authentic.",
+      "tradeoff": "Photography composition and mobile crops require individual review.",
+      "evidenceIds": [
+        "F5"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "pattern": "Centered generic SaaS hero followed by three service cards",
+      "reason": "It obscures the client's law experience and repeats interchangeable structure."
+    },
+    {
+      "pattern": "Invented case wins or portfolio projects",
+      "reason": "CV only supports internship tasks, not case outcomes."
+    }
+  ],
+  "comparison": {
+    "projects": [],
+    "note": "Prior Lazarus visual materials were considered at planning level; no validated full-page structural screenshots are available for a source-bound side-by-side comparison."
+  },
+  "typography": {
+    "spec": "TYPE_SPEC.md",
+    "contentSource": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1",
+    "specimens": [
+      {
+        "id": "A",
+        "path": "type-specimens.html",
+        "content": "Rachmat Nahyadi | Legal Assistant — BAKRI | S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00."
+      },
+      {
+        "id": "B",
+        "path": "type-specimens.html",
+        "content": "Rachmat Nahyadi | Legal Assistant — BAKRI | S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00."
+      },
+      {
+        "id": "C",
+        "path": "type-specimens.html",
+        "content": "Rachmat Nahyadi | Legal Assistant — BAKRI | S1 Ilmu Hukum UIN Syarif Hidayatullah Jakarta. IPK 3.88/4.00."
+      }
+    ],
+    "chosenId": "B",
+    "reason": "Name-first editorial grammar gives personal identity immediate recognition, with genuine qualifications immediately available.",
+    "fontRights": "Barlow Condensed and IBM Plex families under SIL OFL via Google Fonts; fallback system families, no redistributed font binaries.",
+    "fallback": "Impact/Arial Narrow and Arial/system sans; all information remains HTML and responsive."
+  },
+  "voice": {
+    "spec": "TONE_OF_VOICE.md",
+    "language": "Bahasa Indonesia dengan sedikit label editorial bahasa Inggris",
+    "tone": "professional-conversational",
+    "audience": "Perekrut hukum dan instansi profesional",
+    "pronouns": "Orang ketiga dan editorial netral; tidak ada kutipan orang pertama tanpa persetujuan",
+    "rationale": "CV emphasizes legal research, discipline, communication and verified internships.",
+    "source": "assets/CV-Rachmat-Nahyadi.pdf, halaman 1",
+    "evidenceIds": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "preferred": [
+      "riset hukum",
+      "dokumen",
+      "bantuan hukum",
+      "analisis"
+    ],
+    "avoid": [
+      "terbaik di bidangnya",
+      "menangani ratusan perkara",
+      "guaranteed results"
+    ],
+    "samples": [
+      {
+        "id": "opening",
+        "copy": "Riset yang cermat. Dokumen yang tertata. Pendekatan hukum yang berpijak pada detail."
+      },
+      {
+        "id": "evidence",
+        "copy": "Menyusun draf dokumen hukum, melakukan riset peraturan, mengelola data, dan mengorganisasi arsip berkas perkara."
+      },
+      {
+        "id": "action",
+        "copy": "Kirim email"
+      }
+    ],
+    "approval": "editorial-draft"
+  },
+  "mobile": {
+    "spec": "MOBILE_VISUAL_QA.md",
+    "readingOrder": "Identity → degree and IPK → legal capabilities → experience timeline → real photo narratives → CV-listed portfolio link → contacts",
+    "illustrationPolicy": "Authentic photos preserve subject crop; plasma video must remain behind readable text.",
+    "motionFallback": "Pause control; prefers-reduced-motion uses static poster.",
+    "riskAreas": [
+      "Large display name at 320px",
+      "Plasma glow behind copy",
+      "Navigation overlay and viewport fit",
+      "Long legal organizations and email wrapping"
+    ],
+    "sections": [
+      "top",
+      "profil",
+      "kompetensi",
+      "pengalaman",
+      "interlude-title",
+      "beyond-title",
+      "portfolio-title",
+      "kontak"
+    ]
+  },
+  "qa": {
+    "commit": "aed290a027265dd63f19716fc0f5e2d6b7ffc327",
+    "environment": "Static source review; headless browser screenshot capture not successful in available container",
+    "screenshots": [],
+    "mobileInspections": [],
+    "checks": [],
+    "reviews": [],
+    "independentReview": {
+      "status": "not-tested",
+      "notes": "No independent visual review has been completed."
+    }
+  }
+}
