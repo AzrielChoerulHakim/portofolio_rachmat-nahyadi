@@ -1,9 +1,29 @@
 # Rachmat Nahyadi — Legal Portfolio
 
-A responsive, static portfolio developed by Lazarus Dev using Lazarus Design OS v4 and Thunderline High Voltage Neon art direction.
+Built with **Lazarus Design OS v4**, using the **Thunderline / High Voltage Neon** visual direction.
 
-The site presents verifiable content from Rachmat's supplied CV and photographs. The plasma animation is a 3-second locally produced MP4 loop.
+## Contents
 
-**Deploy:** publish the repository root on GitHub Pages or serve index.html via a static host.
+- Source-grounded profile, legal education, work history, capabilities and organization leadership.
+- Three photographs supplied by the client.
+- Three-second original plasma loop (MP4) with static poster fallback.
+- Responsive static HTML/CSS/JavaScript, reduced-motion behavior and pause control.
+- Source-grounded design decisions, type comparison, tone-of-voice and mobile QA plans.
 
-**Source:** Lazarus Design OS: https://github.com/AzrielChoerulHakim/lazarus-design-os
+## Run
+
+```bash
+python3 -m http.server 8000
+```
+
+Open http://localhost:8000 . No build step or npm packages are required.
+
+## Deployment
+
+Publish repository root from `main` using GitHub Pages, or deploy to any static host. `index.html` is the entrypoint.
+
+## Credits and content
+
+Content: verified against **CV Rachmat Nahyadi**; three client-provided photographs. Art direction, editing and frontend: Lazarus Dev. No fictitious projects or unverified awards are included.
+
+Design OS: https://github.com/AzrielChoerulHakim/lazarus-design-os

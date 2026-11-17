@@ -1,0 +1,12 @@
+(()=>{
+ document.documentElement.classList.add('js');
+ const video=document.querySelector('#plasmaVideo'),toggle=document.querySelector('#energyToggle'),label=toggle?.querySelector('.energy-label'),progress=document.querySelector('.page-progress');
+ const reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+ let manuallyPaused=false, tabPaused=false;
+ function updateEnergy(){const shouldPlay=!reduce.matches&&!manuallyPaused&&!document.hidden;document.body.classList.toggle('effects-paused',!shouldPlay);if(video){if(shouldPlay){const p=video.play();if(p&&p.catch)p.catch(()=>{document.body.classList.add('effects-paused')})}else video.pause()}if(toggle){toggle.setAttribute('aria-pressed',String(shouldPlay));toggle.setAttribute('aria-label',shouldPlay?'Jeda animasi plasma':'Jalankan animasi plasma');}if(label)label.textContent=shouldPlay?'ENERGY ON':'ENERGY OFF'}
+ toggle?.addEventListener('click',()=>{manuallyPaused=!manuallyPaused;updateEnergy()});reduce.addEventListener?.('change',updateEnergy);document.addEventListener('visibilitychange',updateEnergy);updateEnergy();
+ const revealEls=[...document.querySelectorAll('[data-reveal]')];
+ if('IntersectionObserver' in window&&!reduce.matches){const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})},{threshold:.09,rootMargin:'0px 0px -25px 0px'});revealEls.forEach(e=>obs.observe(e))}else revealEls.forEach(e=>e.classList.add('visible'));
+ let scheduled=false;const sections=[...document.querySelectorAll('main section[id],footer[id]')],links=[...document.querySelectorAll('.primary-nav a')];function onScroll(){if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;const doc=document.documentElement,amt=Math.max(doc.scrollHeight-innerHeight,1);progress.style.width=(Math.min(100,Math.max(0,scrollY/amt*100)))+'%';let current='';for(const s of sections){if(s.getBoundingClientRect().top<innerHeight*.34)current=s.id}for(const a of links){const active=a.getAttribute('href')==='#'+current;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')}})}window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',onScroll,{passive:true});onScroll();
+ const year=document.querySelector('#year');if(year)year.textContent=String(new Date().getFullYear());
+})();
